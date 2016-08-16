@@ -1,5 +1,6 @@
-test:
-  override:
-    - mvn package surefire:test
-
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: java-test-8031
 
