@@ -1,6 +1,6 @@
 test:
-  post:
+  override:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
-    - mvn surefire:test
+    - mvn package surefire:test
     - find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;## YAML Template.
 
