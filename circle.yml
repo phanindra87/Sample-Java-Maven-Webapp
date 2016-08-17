@@ -1,4 +1,4 @@
 test:
-  override:
-	- mvn package surefire:test
+ override:
+  - mvn package surefire:test
 
