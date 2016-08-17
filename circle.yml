@@ -1,5 +1,1 @@
-test:
- override:
-  - mvn package surefire:test
-  - mkdir -p $CIRCLE_TEST_REPORTS/junit/
-  - find /home/ubuntu/Sample-Java-Maven-Webapp/target/surefire-reports/*.xml -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+
