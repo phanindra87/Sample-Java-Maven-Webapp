@@ -56,6 +56,6 @@ public class SampleJUnitTest {
     @Test
     public void testApp3()
     {
-        assertTrue( true );
+        assertTrue( false );
     }
 }
